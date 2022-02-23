@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="68" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="26">
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="../image/cave.png" width="256" height="256"/>
+ </tileset>
+ <layer id="2" name="Main" width="68" height="17">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt17ENgDAMBVGXsIHZf1GIHBA3gV3ck6LfRtE1yYg4n3O436qs98juSwxyhX382QfZB9kH2QfZB9kH2QfZB9kH2QfZB719dP+vJ23ud3Frb7aIDOU=
+  </data>
+ </layer>
+ <objectgroup draworder="index" id="3" name="Aktor">
+  <object id="13" name="door" type="aktor" x="32" y="224" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="door_to_common"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" type="int" value="100"/>
+   </properties>
+  </object>
+  <object id="25" name="door" type="aktor" x="160" y="224" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="door_to_silver"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" type="int" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

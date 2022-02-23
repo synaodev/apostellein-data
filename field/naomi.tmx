@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="31" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="47">
+ <tileset firstgid="1" name="house" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="../image/house.png" width="256" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="31" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0M0KglAQhuHB0FqlFkWLMrsPW/RzA5U3oHYDmvePL8jQQYIWZzsfPMxuvnNGxGKx/EqIyJkXXHHDHQFmSDw6dMd0brB15gNPvFBihTVyj27dMZ1zLOT77wo1GrydN+48upeIkcp4P92pnQXOaNHhgx57HDy7MxxxkvF+ulM7LRbL/wwzngls
+  </data>
+ </layer>
+ <layer id="2" name="Main" width="31" height="17">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAlMgNkLCxPCpaYcrELsRaY4xGXYbkqFn1G7a2a0HxPpA7AnEXgyQtGCCA5Ob1pD142KPglEwFAAAYEAKtA==
+  </data>
+ </layer>
+ <objectgroup draworder="index" id="3" name="Aktor">
+  <object id="1" name="door" type="aktor" x="144" y="160" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="door_to_hallway"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" value="100"/>
+   </properties>
+  </object>
+  <object id="2" name="computer" type="aktor" x="240" y="144" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="use_computer"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" value="200"/>
+   </properties>
+  </object>
+  <object id="3" name="bed" type="aktor" x="304" y="144" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="bed"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" value="400"/>
+   </properties>
+  </object>
+  <object id="4" name="bed" type="aktor" x="352" y="144" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="shoshi_bed"/>
+    <property name="flags" value="0xA"/>
+    <property name="id" type="int" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

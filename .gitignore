@@ -1,0 +1,12 @@
+# Symlinks
+save
+init
+log
+
+# Tiled
+*.tiled-project
+*.tiled-session
+
+# Aseprite
+*.ase
+*.aseprite

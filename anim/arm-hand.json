@@ -1,0 +1,53 @@
+{
+	"Material": "bullets",
+	"Animations": [
+		{
+			"name": "Arm",
+			"starts": [
+				96,
+				80
+			],
+			"vksize": [
+				1,
+				3
+			],
+			"tdelay": 0.008,
+			"frames": [
+				[
+					[
+						0,
+						0
+					],
+					[
+						1,
+						0
+					]
+				]
+			]
+		},
+		{
+			"name": "Hand",
+			"starts": [
+				112,
+				80
+			],
+			"vksize": [
+				16,
+				16
+			],
+			"tdelay": 0.008,
+			"frames": [
+				[
+					[
+						0,
+						0
+					],
+					[
+						1,
+						0
+					]
+				]
+			]
+		}
+	]
+}

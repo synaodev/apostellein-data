@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="31" height="81" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="26">
+ <tileset firstgid="1" name="silver" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="../image/silver.png" width="256" height="256"/>
+ </tileset>
+ <layer id="1" name="Main" width="31" height="81">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmE0KwjAQhUPd6LJ6D72B3kuFXt0sDITSZP5ephTmwZBSW16+TDommVJKpxznHBendvp7XnPcElYz8XvxLH3w9NZwz4LovePFvTUGXO41B8Kbw63x5XhT3FpfjneP2+LL8fb6vrX5Rnmvx3EkNyUNt2UO1Opxb41Tqy+cOrZ+ZmS+W/0s8s53cAe3F3eto9U1lCTc3LVY676lrlH/iVJJuZHeFm6r/1G5rf04OrdWFm7uuqYlVL41/qh8a/yR+ZbmYMQ85/qPmucc71Hf997cyPMWaW1BnjOhvVF1jYqt97zruXZ9jvYene9eWNapmm8cwU2p1TdEvmstguct3J8c36p9G66l3PccD1Ar5X7meIHa2IcGt5eCO7i9FNzB7aXgDm4vBXdweym49+e27mup6/pe8SznBMg9LtUWzx+2nT3F
+  </data>
+ </layer>
+ <objectgroup draworder="index" id="2" name="Aktor">
+  <object id="13" name="door" type="aktor" x="224" y="480" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="door_to_practice"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" type="int" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

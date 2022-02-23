@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="31" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="5">
+ <tileset firstgid="1" name="house" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="../image/house.png" width="256" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="31" height="17">
+  <data encoding="base64" compression="zlib">
+   eJztzzkKgDAQRuHgvlQWCkYtXI6h97+Wr0hhIUkz082DjyFV+J2zrP9KVJGrUY0GI6bIlSy1U3N3aqftlt9dYECG/HNbdOjDW2P3hR0rNhw4McNjCe8bj/DfliXZC2rrBWg=
+  </data>
+ </layer>
+ <layer id="2" name="Main" width="31" height="17">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxWYArERFCOzCfFNqWSnKxC7kajfeADspMRuQwrtpNRuagBy4puSNIIMyI1vagByzKFWmA9kfJMb5iZIGBcfWdwOiO2pYDclbkVnj4LBAwAPBw1i
+  </data>
+ </layer>
+ <objectgroup draworder="index" id="3" name="Aktor">
+  <object id="1" name="door" type="aktor" x="128" y="176" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="door_to_naomi"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" value="100"/>
+   </properties>
+  </object>
+  <object id="2" name="fire" type="aktor" x="224" y="176" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="check_fireplace"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" type="int" value="200"/>
+   </properties>
+  </object>
+  <object id="3" name="door" type="aktor" x="352" y="192" width="16" height="16">
+   <properties>
+    <property name="deter" type="int" value="0"/>
+    <property name="event" value="door_to_practice"/>
+    <property name="flags" value="0x2"/>
+    <property name="id" type="int" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

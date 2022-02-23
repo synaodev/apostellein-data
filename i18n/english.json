@@ -1,0 +1,88 @@
+{
+	"Font" : [
+		"system", "legal", "clock", "evangelion"
+	],
+
+	"Main" : [
+		"English", "Yes", "No", "Error"
+	],
+
+	"Event": [
+		"english"
+	],
+
+	"Option" : [
+		"Apostellein:\n\n",
+		"\t Return\n",
+		"\t Input\n",
+		"\t Video\n",
+		"\t Audio\n",
+		"\t Language\n",
+		"\t Reboot\n",
+		"\t Exit"
+	],
+
+	"Input" : [
+		"Keyboard Settings:\t\t\tJoystick Settings:",
+		"\t Jump - ",
+		"\n\t Arms - ",
+		"\n\t Item - ",
+		"\n\t Strafe - ",
+		"\n\t Apostle - ",
+		"\n\t Inventory - ",
+		"\n\t Options - ",
+		"\n\t Up - ",
+		"\n\t Down - ",
+		"\n\t Left - ",
+		"\n\t Right - "
+	],
+
+	"Video" : [
+		"Video Settings:\n\n",
+		"\t Full Screen - ",
+		"\t Scaling - ",
+		"\t Vertical Sync - ",
+		"\t Frame Rate -"
+	],
+
+	"Audio" : [
+		"Audio Settings:\n\n",
+		"\t Sound Volume - ",
+		"\t Pxtone Volume - "
+	],
+
+	"Language" : [
+		"Language Settings:\n\n"
+	],
+
+	"Profile" : [
+		"Record:\n\n",
+		"Resume:\n\n",
+		"\t Profile - {}\n"
+	],
+
+	"Inventory" : [
+		"Empty", "Kannon", "Frontier", "Wolf Vulcan", "Nail Ray", "Austere", "Mitorashi",
+		"Arc Wielder", "Lieteraum", "Shoshi's Message", "Life Pot", "Oxygen Tank", "Tow Rope",
+		"Small Key", "Storage Key", "Pretty Necklace", "Angelic Hammer"
+	],
+
+	"Empty" : [
+		"It's empty."
+	],
+
+	"Bed" : [
+		"Save Progress", "Rest in Bed", "Do Nothing",
+		"......", "Barrier restored!"
+	],
+
+	"Death" : [
+		"You have been killed.",
+		"You were instantly killed.",
+		"You were never seen again.",
+		"You have drowned.",
+		"You collapsed due to poisoning.",
+		"You died for a weird reason.",
+		"Would you like to retry?"
+	]
+}
