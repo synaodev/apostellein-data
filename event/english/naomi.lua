@@ -36,7 +36,7 @@ end
 
 local function introduction()
 	sfx.clear();
-	hud.message(true, 240.0, 72.0, 4, 'Apostellein');
+	hud.message(true, 240.0, 72.0, 4, 'Apostéllein');
 	sys.wait(1.5);
 	hud.erase();
 	hud.fade_in();
